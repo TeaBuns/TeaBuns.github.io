@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "Silkscreen";
+  src: url("../fonts/slkscr-webfont.woff2") format("woff2"),
+       url("../fonts/slkscr-webfont.woff") format("woff");
+}
+
+html {
+  font-family: "Silkscreen", Helvetica,"Trebuchet MS", Verdana, sans-serif;
+  width: 100%;
+  min-height: 1080px;
+  margin: 0px;
+  padding: 0px;
+  background: black;
+  /* display: block; */
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: block;
+  background: url(../img/BG_GameWorld.png) no-repeat center;
+  background-size: cover;
+}
+
+
+.logo {
+	width: 100px;
+	height: 100px;
+	background: url(../img/SF_Logo.png) no-repeat center;
+  background-size: contain;
+	display: block;
+	float: left;
+}
+
+header {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  display: inline-block;
+  background-color: hsla(0, 100%, 0%, 0.5);
+}
+
+nav.main_menu {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+nav {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  display: block;
+  position: static;
+}
+
+nav ul {
+  margin: 0 0 0 0;
+  padding: 12px 0 0 100px;
+  display: block;
+}
+nav ul li {
+  margin: 20px;
+  padding: 0 0 0 0;
+  display: inline-block;
+  float: left;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.fb {
+  height: 24px;
+  width: 24px;
+  float: left;
+  background: url(../img/logo_f.png) no-repeat center;
+  background-size: contain;
+}
+
+.insta {
+  height: 24px;
+  width: 24px;
+  float: left;
+  background: url(../img/logo_insta.png) no-repeat center;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 500px) {
+  .logo {
+    margin: 0px 0px 40px 0px;
+  }
+  nav ul li {
+    margin: 10px;
+  }
+  #home {
+    display: none;
+  }
+}
+
+.main_menu {
+  display: block;
+  margin: 0 0 0 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.feat_1 {
+  height: 500px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.h1 {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+#logotext {
+  height: -webkit-fill-available;
+  margin: 50px;
+  background: url(../img/SF_LogoText.png) no-repeat center;
+  background-size: contain;
+}
+
+.feat_2 {
+  color: white;
+  min-height: 300px;
+  width: 100%;
+  margin: 0px;
+  padding: 0 0 0 0;
+  display: inline-block;
+  background-color: hsla(0, 100%, 0%, 0.7);
+}
+
+.feat_2 p {
+  margin-top: 40px;
+  text-align: center;
+  display: block;
+}
+
+.feat_2 a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  border: solid 2px white;
+  display: inline-block;
+}
+
+.h2 {
+  margin: 20px;
+  padding: 0px;
+  font-size: 22px;
+  display: block;
+}
+
+#imgfeat {
+  margin: 0 30px 0 30px;
+  text-align-last: center;
+}
+
+.feat_3 {
+  color: white;
+  min-height: 200px;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 30px 0 0 0;
+  display: inline-block;
+  background: linear-gradient(to left, hsla(33, 33%, 20%, 0.9), hsla(33, 33%, 40%));
+}
+
+#list_f3 {
+  display: inline-block;
+  margin: 0 30px 0 30px;
+  text-align-last: left;
+}
+
+.box_f {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background: hsla(0, 0%, 0%, 0.5);
+  border: solid 3px white;
+  display: inline-block;
+}
+
+.feat_4 {
+  min-height: 120px;
+  width: 100%;
+  padding: 30px 0 0 0;
+  display: inline-block;
+  color: white;
+}
+
+.h4 {
+  text-align: center;
+  margin: 28px;
+  font-size: 24px;
+}
+
+.feat_4 a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  margin: 4px;
+  padding: 8px;
+  border: solid 2px white;
+  display: inline-block;
+}
+
+footer {
+  height: 100px;
+  padding-top: 20px;
+  color: white;
+  text-decoration: none;
+  background-color: hsla(0, 100%, 0%, 0.7);
+}
+
+footer p {
+  text-align: center;
+}
